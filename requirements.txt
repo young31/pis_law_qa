@@ -1,0 +1,23 @@
+# requirements.txt
+
+# Core framework for the web application
+streamlit==1.43.2
+
+# For handling .env files (like GOOGLE_API_KEY)
+python-dotenv
+
+# For reading and processing Excel files (Q&A data)
+pandas
+openpyxl # Required by pandas to read/write Excel .xlsx files
+
+# Core LangChain library and specific components
+langchain
+langchain-core
+langchain-chroma        # For ChromaDB vector store
+langchain-google-genai  # For Google Generative AI embeddings
+langchain-ollama        # For Ollama LLMs and embeddings
+langchain-community     # For community-supported loaders, etc.
+
+# Note: Some langchain-* packages might pull in langchain and langchain-core
+# as dependencies, but it's good to list them if you are using their features directly.
+# The specific text splitters and document loaders used are part of these.
