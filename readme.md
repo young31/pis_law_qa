@@ -6,6 +6,10 @@
 - 해당 코드 및 파일은 일부 전처리를 제외하고는 vibe coding 으로 작성되었습니다. 
 - local 환경에서 정보 유출 없이 사용하고자 개발되었으며, python 및 ollama 를 위한 환경 구축 후 사용할 수 있습니다.
 
+[ollama 소개](https://github.com/ollama/ollama)
+- ollama pull phi4-mini # other llm models
+- ollama pull mxbai-embed-large # embedding model
+
 ## 1. 소개
 
 AI 법률 질의응답 시스템에 오신 것을 환영합니다! 이 시스템은 사용자가 업로드한 법률 문서 및 기존 질의응답(Q&A) 데이터를 기반으로 법률 관련 질문에 답변을 생성하는 인공지능 어시스턴트입니다. 사용자는 다양한 설정을 통해 시스템의 답변 생성 방식을 최적화할 수 있습니다.
