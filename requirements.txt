@@ -17,6 +17,7 @@ langchain-chroma        # For ChromaDB vector store
 langchain-google-genai  # For Google Generative AI embeddings
 langchain-ollama        # For Ollama LLMs and embeddings
 langchain-community     # For community-supported loaders, etc.
+google-generativeai     # for gemini models like gemini-2.0-flash
 
 # Note: Some langchain-* packages might pull in langchain and langchain-core
 # as dependencies, but it's good to list them if you are using their features directly.
